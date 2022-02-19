@@ -70,14 +70,18 @@ function App() {
           <Grid item xs={4}>
             <Box sx={{ mb: 4, borderRadius: 16 }}>
               {loading ? (
-                <img
-                  width="100%"
-                  src={SooniumPenguImage}
-                  className="App-logo"
-                  alt="logo"
-                />
+                <Box>
+                  <img
+                    width="100%"
+                    src={SooniumPenguImage}
+                    className="App-logo"
+                    alt="logo"
+                  />
+                </Box>
               ) : (
-                <Skeleton variant="rectangular" width={400} height={400} />
+                <Box>
+                  <Skeleton variant="rectangular" height={400} width="100%" />
+                </Box>
               )}
             </Box>
             <Grid
