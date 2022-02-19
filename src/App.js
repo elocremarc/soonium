@@ -80,7 +80,7 @@ function App() {
                 </Box>
               ) : (
                 <Box>
-                  <Skeleton variant="rectangular" height={400} width="100%" />
+                  <Skeleton variant="rectangular" height={200} width="100%" />
                 </Box>
               )}
             </Box>
