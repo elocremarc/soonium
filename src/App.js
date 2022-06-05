@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     setLoading(false);
     fetch(
-      `https://ipfs.io/ipfs/bafybeifdlrwuxlfqjnbmtpp7x4apsphxttkwl46mqqqjthaeykwhk3y5yq/SooniumPenguins/${SooniumPenguin}.png`
+      `https://eloc.mypinata.cloud/ipfs/QmZLLuZpMHEzqu9VfoBEpJct9NRkgg5sVFhWcLX5HRmYqh/SooniumPenguins/${SooniumPenguin}.png`
     )
       .then((response) => response.blob())
       .then((blob) => {
